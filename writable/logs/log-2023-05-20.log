@@ -1,0 +1,477 @@
+INFO - 2023-05-20 03:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:56:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:57:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:58:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:59:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:59:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 03:59:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:59:26 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 148.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 148)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 03:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:59:54 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 149.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 149)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 03:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 03:59:56 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 149.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(149): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 149)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:00:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:00:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:03:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:03:34 --> Undefined array key "registered_bengkels"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "registered_bengkels"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:26 --> Undefined array key "data_registrasi_id"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_registrasi_id"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:26 --> Undefined array key "data_registrasi_id"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_registrasi_id"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:27 --> Undefined array key "data_registrasi_id"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data_registrasi_id"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:48 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:49 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:49 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:49 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:49 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:50 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:50 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:50 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:50 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:50 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:04:50 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 140.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 140)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:06:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:06:19 --> foreach() argument must be of type array|object, string given
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 142.
+ 1 APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php', 142)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\bengkel\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:09:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:09:54 --> Cannot access offset of type string on string
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:09:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:09:55 --> Cannot access offset of type string on string
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:10:23 --> Cannot access offset of type string on string
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:10:24 --> Cannot access offset of type string on string
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:10:24 --> Cannot access offset of type string on string
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:10:24 --> Cannot access offset of type string on string
+in APPPATH\Views\tmplt\bengkel\dataregisthsv_view.php on line 143.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/bengkel/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\bengkel\BengkelRegistHSVController.php(14): view('tmplt/bengkel/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\bengkel\BengkelRegistHSVController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\bengkel\BengkelRegistHSVController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:11:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:11:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:12:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:16:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:17:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:17:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:17:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:17:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:18:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:19:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:23:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:42:30 --> Class "BengkelModel" not found
+in APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php on line 73.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/pengguna/dataregisthsv_view', [], true)
+ 4 APPPATH\Controllers\pengguna\DataregistrasihsvController.php(13): view('tmplt/pengguna/dataregisthsv_view')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\pengguna\DataregistrasihsvController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pengguna\DataregistrasihsvController))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:42:45 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php on line 77.
+ 1 APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\pengguna\\dataregisthsv_view.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\pengguna\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/pengguna/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\pengguna\DataregistrasihsvController.php(13): view('tmplt/pengguna/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\pengguna\DataregistrasihsvController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pengguna\DataregistrasihsvController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:42:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:42:46 --> Undefined array key "nama_bengkel"
+in APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php on line 77.
+ 1 APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_bengkel"', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\pengguna\\dataregisthsv_view.php', 77)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\pengguna\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/pengguna/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\pengguna\DataregistrasihsvController.php(13): view('tmplt/pengguna/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\pengguna\DataregistrasihsvController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pengguna\DataregistrasihsvController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-20 04:43:01 --> Trying to access array offset on value of type null
+in APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php on line 94.
+ 1 APPPATH\Views\tmplt\pengguna\dataregisthsv_view.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\pengguna\\dataregisthsv_view.php', 94)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\projecttesting\\app\\Views\\tmplt\\pengguna\\dataregisthsv_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('tmplt/pengguna/dataregisthsv_view', [], true)
+ 5 APPPATH\Controllers\pengguna\DataregistrasihsvController.php(13): view('tmplt/pengguna/dataregisthsv_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\pengguna\DataregistrasihsvController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pengguna\DataregistrasihsvController))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\projecttesting\\public\\index.php')
+INFO - 2023-05-20 04:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:43:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:43:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:44:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:56:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:56:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:56:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-20 04:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

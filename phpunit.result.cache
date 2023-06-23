@@ -1,0 +1,1 @@
+{"version":1,"defects":{"DatauserTest::testLogin":3,"DatauserTest::testlogin":3},"times":{"ExampleDatabaseTest::testModelFindAll":0.07,"ExampleDatabaseTest::testSoftDeleteLeavesRow":0.012,"ExampleSessionTest::testSessionSimple":0.002,"DatauserTest::testLogin":0.084,"HealthTest::testIsDefinedAppPath":0.003,"HealthTest::testBaseUrlHasBeenSet":0.007,"DatauserTest::testlogin":0.076}}
